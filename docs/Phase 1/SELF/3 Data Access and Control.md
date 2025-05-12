@@ -1,0 +1,3 @@
+# Data access and control
+
+Initially, the SELF team has access to anonymised user preference data, in order to be able to develop and optimise various aspects of SELF. However, user data is never sold to a third party; the user controls all of it and can delete anything, at any time. Our ambition is to completely shut off the SELF team’s access to anonymised user data once development has progressed. When this happens, everything the users share with SELF will be completely between them and SELF. In due time, the storage of that data will be decentralised through the utilisation of breakthrough Information-Theoretic Security solutions, in contrast to being stored on a centralised database protected by high levels of encryption.

@@ -1,0 +1,55 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@100,200,300,400,500,600,700,800&display=swap');
+
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #0029CA;
+  --ifm-color-primary-dark: #0029CA;
+  --ifm-color-primary-darker: #0029CA;
+  --ifm-color-primary-darkest: #0029CA;
+  --ifm-color-primary-light: #0029CA;
+  --ifm-color-primary-lighter: #0029CA;
+  --ifm-color-primary-lightest: #0029CA;
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: "Montserrat";
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+html[data-theme="dark"] {
+  --ifm-color-primary: #07B6FE;
+  --ifm-color-primary-dark: #07B6FE;
+  --ifm-color-primary-darker: #07B6FE;
+  --ifm-color-primary-darkest: #07B6FE;
+  --ifm-color-primary-light: #07B6FE;
+  --ifm-color-primary-lighter: #07B6FE;
+  --ifm-color-primary-lightest: #07B6FE;
+  --ifm-background-color: #1f2a38;
+  --ifm-background-surface-color: #18202b;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+.redocusaurus pre {
+  --ifm-background-color: initial;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #18202b;
+}
